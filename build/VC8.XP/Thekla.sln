@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Thekla", "Thekla.vcproj", "{C4C06D5F-1140-41AA-BE61-50C4CDD64631}"
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+	ProjectSection(ProjectDependencies) = postProject
+		{E54D532F-1FD1-4A58-B056-38CCC6CC8F8A} = {E54D532F-1FD1-4A58-B056-38CCC6CC8F8A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheklaQtAdapters", "TheklaQtAdapters.vcproj", "{E54D532F-1FD1-4A58-B056-38CCC6CC8F8A}"
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndProject
+Global
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C06D5F-1140-41AA-BE61-50C4CDD64631}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4C06D5F-1140-41AA-BE61-50C4CDD64631}.Debug|Win32.Build.0 = Debug|Win32
+		{C4C06D5F-1140-41AA-BE61-50C4CDD64631}.Release|Win32.ActiveCfg = Release|Win32
+		{C4C06D5F-1140-41AA-BE61-50C4CDD64631}.Release|Win32.Build.0 = Release|Win32
+		{E54D532F-1FD1-4A58-B056-38CCC6CC8F8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E54D532F-1FD1-4A58-B056-38CCC6CC8F8A}.Debug|Win32.Build.0 = Debug|Win32
+		{E54D532F-1FD1-4A58-B056-38CCC6CC8F8A}.Release|Win32.ActiveCfg = Release|Win32
+		{E54D532F-1FD1-4A58-B056-38CCC6CC8F8A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+#Inventor V2.1 ascii
+
+Separator {
+
+#     Separator {
+
+#         Translation {
+#             translation -0.5 -0.5 -0.5
+#         }
+
+#         Material {
+#             diffuseColor 0.5 1 1
+#             specularColor 1 0.5 0.5
+#             shininess 1
+#         }
+
+#         Rotation { rotation 0 1 0  0.785398163397448279 }
+#         Rotation { rotation 1 0 0  1.047197551196597705 }
+
+#         Cube { }
+#     }
+
+    Separator {
+
+        Translation {
+            translation 1 1 1
+        }
+
+        Font {
+            size 1
+            name "Arial:Bold Italic"
+        }
+
+        BaseColor {
+            rgb 1 0 0 #red
+        }
+        AsciiText {
+            width [ 0, 1, 1 ]
+            justification LEFT #Standard alignment
+            string [ "LEFT" ]
+        }
+    }
+}

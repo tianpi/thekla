@@ -1,0 +1,19 @@
+### SETTINGS
+
+CXXFLAGS += -g -Wall
+CXXFLAGS += -D_REENTRANT -DQT_SHARED
+CXXFLAGS += -I/usr/share/qt4/mkspecs/linux-g++
+CXXFLAGS += -I/usr/include/qt4
+CXXFLAGS += -DQT_CORE_LIB -I/usr/include/qt4/QtCore
+CXXFLAGS += -DQT_GUI_LIB -I/usr/include/qt4/QtGui
+CXXFLAGS += -DQT_XML_LIB  -I/usr/include/qt4/QtXml
+
+CXXFLAGS += -I$(MUDDLEWAREROOT)/include
+CXXFLAGS += -I$(LOG4CPLUSROOT)/include
+CXXFLAGS += -I$(CXXTESTROOT)
+
+CXXFLAGS += -I$(THEKLAROOT)/src
+CXXFLAGS += -I$(THEKLAROOT)/include
+CXXFLAGS += -I.
+
+LIBS += -L$(THEKLAROOT)/lib -lThekla

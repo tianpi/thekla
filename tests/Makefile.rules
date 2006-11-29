@@ -1,0 +1,24 @@
+
+### TEST SUITE BUILD RULES
+
+default: runner
+
+all: run
+
+# Rules to build your targets
+lib: 
+
+# A rule that runs the unit tests
+run: runner
+	./runner
+
+# How to build the test runner
+runner: runner.cpp
+	$(CXX) $(LFLAGS) -o $@ $(CXXFLAGS) $^ $(LIBS)
+
+# How to generate the test runner
+runner.cpp: $(TESTSUITES)
+	$(CXXTESTROOT)/cxxtestgen.pl -o $@ --error-printer $^
+
+clean:
+	rm -f runner runner.cpp
